@@ -10,7 +10,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #e8edf2;
+      background-color: lightgrey;
       color: #1f2933;
       margin: 0;
       line-height: 1.6;
@@ -112,7 +112,7 @@
     <h2>About Me</h2>
     <p>My name is <strong>Cyril Johann P. Yriarte</strong>, but you can call me by my nickname, <strong>Cy</strong>.</p>
 
-    <p>I enjoy playing video games and reading mangas.</p>
+    <p>I like using my phone alot, well also my other devices but you get it.</p>
   </div>
 
   <div class="card" id="education">
@@ -128,30 +128,54 @@
   <div class="card" id="hobbies">
   <h2>Hobbies &amp; Interests</h2>
 
-  <ul>
-    <li>Playing PC games</li>
-    <li>Reading mangas</li>
-    <li>Watching story time animation videos</li>
-  </ul>
+  <h3>Playing Video Games</h3>
+  
+  <style>
+  .game-pics {
+    --pic-size: 150px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
 
-  <h3>My Favorites</h3>
-  <div class="hobby-row">
+  .game-pics figure {
+    margin: 0;
+    width: var(--pic-size);
+  }
 
-    <div class="hobby-box">
-      <h3>Playing PC Games</h3>
-      <p>I just love trying out and playing video games.</p>
-      <p>Some games I've played:</p>
-      <div class="game-pics">
-        <figure>
-          <img src="https://github.com/apccjyriarte/webprog-CS251_IT253-html-lessons/blob/main/home/spiderman%20remastered%20image.jpg?raw=true" alt="APC LOGO">
-          <figcaption>Marvel's Spiderman Remastered</figcaption>
-        </figure>
-        <figure>
-          <img src="https://github.com/apccjyriarte/webprog-CS251_IT253-html-lessons/blob/main/home/GOWR.jpg?raw=true" alt="Game 2">
-          <figcaption>God of War Ragnarok</figcaption>
-        </figure>
-      </div>
-    </div>
+  .game-pics img {
+    display: block;
+    width: var(--pic-size);
+    height: var(--pic-size);
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  .game-pics figcaption {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+</style>
+
+<div class="hobby-box">
+  <p>I just love trying out and playing video games.</p>
+  <p>Some games I've played:</p>
+  <div class="game-pics">
+    <figure>
+      <img src="https://github.com/apccjyriarte/webprog-CS251_IT253-html-lessons/blob/main/home/spiderman%20remastered%20image.jpg?raw=true" alt="Marvel's Spiderman Remastered cover">
+      <figcaption>Marvel's Spiderman Remastered</figcaption>
+    </figure>
+    <figure>
+      <img src="https://github.com/apccjyriarte/webprog-CS251_IT253-html-lessons/blob/main/home/GOWR.jpg?raw=true" alt="God of War Ragnarok cover">
+      <figcaption>God of War Ragnarok</figcaption>
+    </figure>
+    
+    <figure>
+      <img src="https://github.com/apccjyriarte/webprog-CS251_IT253-html-lessons/blob/main/home/GOW.jpg?raw=true" alt="God of War cover">
+      <figcaption>God of War</figcaption>
+    </figure>
+  </div>
+</div>
 
 
       <h3>Reading Mangas</h3>
@@ -166,7 +190,8 @@
     <h2>Goals In Life / Dream</h2>
 
     <ol>
-      <li>WIP goals</li>
+      <li>Become a game developer.</li>
+      <li>Earn enough money to live comfortably with me and my family</li>
 
     </ol>
   </div>
@@ -175,22 +200,21 @@
     <h2>Picture Gallery</h2>
     <p>My photos:</p>
 
-    <img src="images/photo1.jpg" alt="Description of photo 1">
-    <img src="images/photo2.jpg" alt="Description of photo 2">
-    <img src="images/photo3.jpg" alt="Description of photo 3">
-    <img src="images/photo4.jpg" alt="Description of photo 4">
+    <img src="https://github.com/apccjyriarte/webprog-CS251_IT253-html-lessons/blob/main/home/1.JPG?raw=true" alt="photo gal 1">
+    <img src="https://github.com/apccjyriarte/webprog-CS251_IT253-html-lessons/blob/main/home/2.JPG?raw=true" alt="photo gal 2">
+    <img src="https://github.com/apccjyriarte/webprog-CS251_IT253-html-lessons/blob/main/home/3.JPG?raw=true" alt="photo gal 3">
+    <img src="https://github.com/apccjyriarte/webprog-CS251_IT253-html-lessons/blob/main/home/4.jpg?raw=true" alt="photo gal 4">
   </div>
 
   <div class="card" id="links">
     <h2>Links &amp; Resources</h2>
 
-    <p>Check out my code on my
-      <a href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank" rel="noopener">GitHub repository</a>.
+    <p>Check out the code this website was made with on my <a href="https://github.com/apccjyriarte/webprog-CS251_IT253-html-lessons" target="_blank" rel="noopener">GitHub repository</a>.
     </p>
   </div>
 
   <footer>
-    <p>Created by YOUR NAME | 2026</p>
+    <p>Might be updated in the future</p>
   </footer>
 
 </body>
