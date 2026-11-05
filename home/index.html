@@ -1,12 +1,208 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="YOUR NAME">
+  <title>YOUR NAME | Introduction</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e8edf2;
+      color: #1f2933;
+      margin: 0;
+      line-height: 1.6;
+    }
+    
+    #top-banner {
+      background-color: #455a73;
+      color: white;
+      padding: 60px 20px 10px;
+ (100% down),
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    }
+
+    .banner-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .banner-content .hello {
+      color: #c3d3e6;
+      margin: 0;
+      font-size: 1.1rem;
+    }
+
+    .banner-content h1 {
+      font-size: 2.8rem;
+      margin: 0 0 8px;
+    }
+
+    .banner-content .tagline {
+      margin: 0 0 20px;
+      color: #dfe8f2;
+    }
+
+    nav a {
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.15);
+      color: white;
+      text-decoration: none;
+      padding: 6px 16px;
+      border-radius: 999px;
+      margin: 0 6px 6px 0;
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .card {
+      background-color: white;
+      border: 1px solid #cdd6df;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+    }
+
+    .card h2 {
+      color: #455a73;
+      border-bottom: 2px solid #cdd6df;
+      padding-bottom: 6px;
+    }
+
+    .highlight {
+      background-color: #dbe6f1;
+      padding: 0 4px;
+    }
+
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #cdd6df; padding: 8px; text-align: left; }
+    th { background-color: #455a73; color: white; }
+
+    .gallery img {
+      width: 48%;
+      border-radius: 6px;
+      margin-bottom: 8px;
+    }
+
+    footer {
+      background-color: #2f3d4d;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>My First WEBPROG Heading</h1>
-<p>My first paragraph.</p>
+  <div id="top-banner">
+    <div class="banner-content">
+      <p class="hello">Salutations everybody!</p>
+      <h1>WELCOME TO MY PAGE</h1>
+      <p class="tagline">Have a look around to get to know me</p>
+    </div>
+  </div>
+
+  <div class="card" id="about">
+    <h2>About Me</h2>
+    <p>My name is <strong>Cyril Johann P. Yriarte</strong>, but you can call me by my nickname, <strong>Cy</strong>.</p>
+
+    <p>I enjoy playing video games and reading mangas.</p>
+  </div>
+
+  <div class="card" id="education">
+    <h2>Education / Achievements</h2>
+       <img src="https://github.com/apccjyriarte/webprog-CS251_IT253-html-lessons/blob/main/home/APCLOGO.jpg?raw=true" alt="APC LOGO">
+   <p>I am currently a 2nd year student of Asia Pacific College studying under the course of BSCS.</p>
+
+
+    <h2>IT Experience</h2>
+    <p>Currently learning about HTML and Github</p>
+  </div>
+
+  <div class="card" id="hobbies">
+  <h2>Hobbies &amp; Interests</h2>
+
+  <ul>
+    <li>Playing PC games</li>
+    <li>Reading mangas</li>
+    <li>Watching story time animation videos</li>
+  </ul>
+
+  <h3>My Favorites</h3>
+  <div class="hobby-row">
+
+    <div class="hobby-box">
+      <h3>Playing PC Games</h3>
+      <p>I just love trying out and playing video games.</p>
+      <p>Some games I've played:</p>
+      <div class="game-pics">
+        <figure>
+          <img src="https://github.com/apccjyriarte/webprog-CS251_IT253-html-lessons/blob/main/home/spiderman%20remastered%20image.jpg" alt="APC LOGO">
+          <figcaption>Marvel's Spiderman Remastered</figcaption>
+        </figure>
+        <figure>
+          <img src="https://github.com/apccjyriarte/webprog-CS251_IT253-html-lessons/blob/main/home/GOWR.jpg" alt="Game 2">
+          <figcaption>God of War Ragnarok</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="hobby-box">
+      <h3>Reading Mangas</h3>
+      <p>WRITE A SHORT PARAGRAPH ABOUT WHY YOU LIKE MANGA.</p>
+      <p>Some mangas I've read:</p>
+      <div class="hobby-pics">
+        <figure>
+          <img src="images/manga1.jpg" alt="Cover of MANGA TITLE 1">
+          <figcaption>MANGA TITLE 1</figcaption>
+        </figure>
+        <figure>
+          <img src="images/manga2.jpg" alt="Cover of MANGA TITLE 2">
+          <figcaption>MANGA TITLE 2</figcaption>
+        </figure>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <div class="card" id="goals">
+    <h2>Goals In Life / Dream</h2>
+
+    <ol>
+      <li>Master web programming and software development skills</li>
+      <li>Graduate from YOUR SCHOOL</li>
+      <li>Build a solid career in the IT industry</li>
+    </ol>
+  </div>
+
+  <div class="card gallery" id="gallery">
+    <h2>Picture Gallery</h2>
+    <p>My photos:</p>
+
+    <img src="images/photo1.jpg" alt="Description of photo 1">
+    <img src="images/photo2.jpg" alt="Description of photo 2">
+    <img src="images/photo3.jpg" alt="Description of photo 3">
+    <img src="images/photo4.jpg" alt="Description of photo 4">
+  </div>
+
+  <div class="card" id="links">
+    <h2>Links &amp; Resources</h2>
+
+    <p>Check out my code on my
+      <a href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank" rel="noopener">GitHub repository</a>.
+    </p>
+  </div>
+
+  <footer>
+    <p>Created by YOUR NAME | 2026</p>
+  </footer>
 
 </body>
 </html>
