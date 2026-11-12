@@ -3,12 +3,13 @@
   flex-wrap: nowrap;
   background-color: DodgerBlue;
 }
+
 .container div {
   background-color: darkblue;
-  width: 100px;
+  width: 10000px;
   margin: 10px;
   padding: 10px;
   text-align: center;  
-  font-size: 30px;
+  font-size: 50px;
   color: lightgreen;
 }
