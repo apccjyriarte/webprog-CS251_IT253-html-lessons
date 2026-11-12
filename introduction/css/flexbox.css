@@ -10,4 +10,6 @@
 }
 .container1 {
   background-color: LightBlue;
+  flex-wrap: wrap;
+  display: flex;
 }
