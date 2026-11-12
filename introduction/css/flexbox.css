@@ -8,8 +8,4 @@
   text-align: center;  
   font-size: 30px;
 }
-.background-container {
-  background-color: LightBlue;
-  flex-wrap: wrap;
-  display: flex;
-}
+
