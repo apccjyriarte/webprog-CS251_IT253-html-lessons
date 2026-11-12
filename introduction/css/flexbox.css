@@ -2,6 +2,13 @@
   display: flex;
   flex-wrap: nowrap;
   background-color: DodgerBlue;
- text-color: lightgreen;
 }
- 
+.container div {
+  background-color: #darkblue;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;  
+  font-size: 30px;
+  color: lightgreen;
+}
