@@ -12,15 +12,14 @@
 }
 .image-container {
   display: flex;
-  justify-content: center;   
-  margin: 0 auto;  
-  padding: 20px;             
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
   background-color: lightsteelblue;
-  width: 70%;
+  width: 300px;             
 }
 .image-container img {
-  max-width: 300px;
-  width: 100%;
+  width: 300px;           
   height: auto;
 }
 .flexbox-text {  
