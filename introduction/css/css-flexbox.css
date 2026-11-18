@@ -16,10 +16,10 @@
   margin: 0 auto;
   padding: 20px;
   background-color: lightsteelblue;
-  width: 300px;
+  width: 500px;
 }
 .image-container img {
-  width: 300px;           
+  width: 500px;           
   height: auto;
 }
 .flexbox-text {  
