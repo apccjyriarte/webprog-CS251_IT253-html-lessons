@@ -1,0 +1,33 @@
+.flexbox-container {
+  display: flex;
+  flex-direction: column;  
+  background-color: DodgerBlue;
+  text-align: center;
+  font-size: 30px;
+}
+.flexbox-container div {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.image-container {
+  display: flex;
+  justify-content: center;   
+  margin: 0 auto;  
+  padding: 20px;             
+  background-color: lightsteelblue;
+  width: 70%;
+}
+.image-container img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+.flexbox-text {  
+display: flex;
+flex-direction: column;  
+background-color: powderblue;
+text-align: left;
+font-size: 20px;
+padding: 5px;
+}
